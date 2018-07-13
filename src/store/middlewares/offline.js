@@ -9,7 +9,7 @@ const getErrorMessage = (errorCode, address) => {
       message = `Failed to connect: Node ${address} is not active`;
       break;
     case 'EPARSE':
-      message += ' Make sure that you are using the latest version of Sauco Nano.';
+      message += ' Make sure that you are using the latest version of Sauco Desktop.';
       break;
     default: break;
   }
